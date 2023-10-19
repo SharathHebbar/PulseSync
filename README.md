@@ -2,6 +2,10 @@
 
 A place to store all your reference Links
 
+# Main Page
+
+![Index Page](https://github.com/SharathHebbar/PulseSync/blob/master/assets/1.png)
+
 ## To run this application
 
 - pip install -r requirements.txt
