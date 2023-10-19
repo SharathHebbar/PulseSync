@@ -1,9 +1,18 @@
 {% extends 'core/base.html' %}
 
+{% load static %}
+
 {% block title %}Welcome{% endblock %}
 
 {% block content %}
-    <h1 class="text-xl">
-        Welcome to PulseSync 
-    </h1>
+    <div class="flex justify-center items-center">
+        <h1 class="text-xl font-mono"> Welcome to PulseSync </h1>
+    </div>
+    <br>
+
+        <div class="flex justify-center items-center">
+            
+            <img src="{% static 'PulseSync-bg.jpg' %}" class="w-screen h-1/3" />
+        </div>
+    
 {% endblock %}
